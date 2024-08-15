@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Palanquin_Dark, Pathway_Gothic_One } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const pal = Palanquin_Dark({ weight: ["400", "700"], subsets: ["latin"] });
+const pathway = Pathway_Gothic_One({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-pathway",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${pal.className} ${pathway.variable}`}>{children}</body>
     </html>
   );
 }
