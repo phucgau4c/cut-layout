@@ -1,6 +1,8 @@
 import Button from "../Button";
 import CardPlay from "../CardPlay";
 import card1 from "@/public/assets/imgs/image_cactus-removebg-preview 3.svg";
+import iconSent from "@/public/assets/icons/icon_sent.svg";
+import Image from "next/image";
 
 export default function SectionPlay() {
   return (
@@ -19,7 +21,10 @@ export default function SectionPlay() {
           <CardPlay image={card1} alt="catus1" title="Texas Hold'em" />
         </div>
       </div>
-      <Button classButton="mx-auto mt-[20px]">JOIN NOW</Button>
+      <Button classButton="mx-auto mt-[20px] h-[70px]">
+        <Image src={iconSent} alt="sent" />
+        JOIN NOW
+      </Button>
     </div>
   );
 }

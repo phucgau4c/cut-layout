@@ -21,7 +21,7 @@ export default function FormJoin() {
           iconLink="/assets/icons/icon_smartphone.svg"
           placeHolder="Phone"
         />
-        <Button height={56}>
+        <Button classButton="h-[56px]">
           <Image src={iconSend} alt="join now" /> JOIN NOW!
         </Button>
       </form>

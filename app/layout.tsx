@@ -21,7 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${pal.className} ${pathway.variable}`}>{children}</body>
+      <body className={`${pal.className} ${pathway.variable} text-white`}>
+        {children}
+      </body>
     </html>
   );
 }

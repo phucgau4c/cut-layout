@@ -1,5 +1,6 @@
 import ButtonDownload from "@/components/ButtonDownload";
 import Header from "@/components/ui/Header";
+import SectionFeatures from "@/components/ui/SectionFeatures";
 import SectionPlay from "@/components/ui/SectionPlay";
 import SectionThumbnail from "@/components/ui/SectionThumbnail";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <SectionThumbnail />
       <SectionPlay />
+      <SectionFeatures />
     </>
   );
 }
