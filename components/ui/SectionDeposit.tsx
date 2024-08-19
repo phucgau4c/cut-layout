@@ -41,7 +41,7 @@ export function SectionDeposit() {
             <Image src={iconDeposit} alt="deposit" /> Deposit
           </Button>
         </form>
-        <p className="mx-auto mt-[190px] min-w-[336px] text-center text-[13px] font-[400]">
+        <p className="mx-auto mt-[190px] min-w-[336px] max-w-[485px] text-center text-[13px] font-[400]">
           We will credit the exact amount we receive in US Dollars. Need
           assistance? Contact us via Live Chat for instant support.
         </p>

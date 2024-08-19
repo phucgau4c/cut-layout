@@ -7,7 +7,7 @@ import money from "@/public/assets/imgs/image_10,000-dollar.svg";
 
 export default function LauchDate() {
   return (
-    <div className="px-[35px] lg:w-[620px] lg:px-0">
+    <div className="px-[35px] lg:w-[620px] lg:pr-[20px]">
       <p className="pt-[92px] text-center text-[40px] font-[700] text-white lg:text-left">
         Welcome to AceLounge Club!
       </p>
@@ -16,7 +16,7 @@ export default function LauchDate() {
       </p>
 
       <p className="mb-[17px] hidden text-[20px] font-[400] lg:block">
-        We're thrilled to announce the launch of AceLounge, your ultimate
+        We&apos;re thrilled to announce the launch of AceLounge, your ultimate
         destination for thrilling poker action!{" "}
       </p>
 

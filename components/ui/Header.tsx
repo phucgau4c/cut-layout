@@ -5,7 +5,7 @@ import ButtonDownload from "../ButtonDownload";
 
 export default function Header() {
   return (
-    <header className="w-full bg-black pl-[19px] pr-[23px] lg:fixed lg:top-0 lg:z-10 lg:bg-black/70">
+    <header className="w-full bg-black pl-[19px] pr-[23px] lg:fixed lg:top-0 lg:z-20 lg:bg-black/70">
       <div className="mx-auto flex h-[111px] max-w-[1151px] items-center justify-between">
         <Image
           src={logo}

@@ -11,7 +11,7 @@ export default function SectionThumbnail() {
         <ButtonDownload />
       </div>
       <div
-        className="bg-cover bg-[center_top] bg-no-repeat pb-[66px] pt-[100px]"
+        className="bg-cover bg-[center_top] bg-no-repeat pb-[66px] pt-[100px] lg:px-[20px]"
         style={{
           backgroundImage: "url(/assets/imgs/img_background-thumbnail.svg)",
         }}

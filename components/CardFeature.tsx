@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function CardFeature() {
   return (
     <div
-      className="mx-auto flex h-[470px] w-[322px] flex-col items-center justify-center rounded-l-[50px] bg-gradient-to-r from-[#ff0000]/30 lg:m-[10px] lg:h-[296px] lg:w-[532px] lg:flex-row"
+      className="mx-auto flex h-[470px] w-full max-w-[490px] flex-col items-center justify-center rounded-l-[50px] bg-gradient-to-r from-[#ff0000]/30 lg:m-[10px] lg:h-[296px] lg:w-[532px] lg:flex-row"
       style={{ flex: "0 0 80%" }}
     >
       <Image src={chipImage} alt="chip" className="mb-[5px]" />
