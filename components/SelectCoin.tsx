@@ -26,7 +26,7 @@ export default function Example() {
   return (
     <div className="">
       <Listbox value={selected} onChange={setSelected}>
-        <div className="flex h-[56px] w-[332px] items-center justify-between rounded-r-[58px] rounded-bl-[100px] bg-gradient-to-r from-[#601414] to-[#9a0000] pr-[17px]">
+        <div className="flex h-[56px] min-w-[332px] items-center justify-between rounded-r-[58px] rounded-bl-[100px] bg-gradient-to-r from-[#601414] to-[#9a0000] pr-[17px]">
           <ListboxButton className="flex pl-[35px]">
             <Image src={selected.image} alt="bitcoin" />
             <p className="my-auto ml-1">{selected.name}</p>

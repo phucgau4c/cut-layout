@@ -21,7 +21,7 @@ export default function SectionStay() {
       </div>
       <div className="mt-[-50px]">
         <p className="text-center text-[40px] font-[700]">Stay in the loop</p>
-        <p className="mx-[4px] mb-[25px] text-[20px] font-[400] leading-[36px]">
+        <p className="mx-auto mb-[25px] max-w-[571px] text-[20px] font-[400] leading-[36px] md:text-center">
           Never miss out on the latest news, promotions, and exiting events!
           Sign up below to receive updates directly to your inbox.
         </p>

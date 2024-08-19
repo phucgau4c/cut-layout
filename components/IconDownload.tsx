@@ -7,5 +7,5 @@ type IconDownload = {
 };
 
 export default function IconDownload({ icon, alt, classCss }: IconDownload) {
-  return <Image className={`${classCss}`} src={icon} alt={alt} />;
+  return <Image className={`${classCss} md:m-[5px]`} src={icon} alt={alt} />;
 }

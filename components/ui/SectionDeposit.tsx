@@ -9,7 +9,7 @@ import iconDeposit from "@/public/assets/icons/icon_request-money.svg";
 
 export function SectionDeposit() {
   return (
-    <div className="h-[696px] bg-gradient-to-l from-[#e70404] to-[#850202]">
+    <section className="bg-gradient-to-l from-[#e70404] to-[#850202] px-[34px] pb-[60px]">
       <div className="relative mx-auto h-[230px] w-[300px]">
         <Image className="absolute" src={imageWallet} alt="wallet" />
         <Image
@@ -20,7 +20,10 @@ export function SectionDeposit() {
       </div>
       <div>
         <p className="s text-center text-[40px] font-[700]">Quick Deposit</p>
-        <form action="" className="mx-auto mt-[57px] h-[56px] w-[332px]">
+        <form
+          action=""
+          className="mx-auto mt-[57px] h-[56px] min-w-[332px] max-w-[485px]"
+        >
           <label className="mb[16px] text-center font-pathway text-[32px] font-[400]">
             Choose Payment Method
           </label>
@@ -29,11 +32,11 @@ export function SectionDeposit() {
             <Image src={iconDeposit} alt="deposit" /> Deposit
           </Button>
         </form>
-        <p className="mx-auto mt-[190px] w-[336px] text-center text-[13px] font-[400]">
+        <p className="mx-auto mt-[190px] min-w-[336px] text-center text-[13px] font-[400]">
           We will credit the exact amount we receive in US Dollars. Need
           assistance? Contact us via Live Chat for instant support.
         </p>
       </div>
-    </div>
+    </section>
   );
 }

@@ -9,7 +9,7 @@ export default function ParagraphBottom({
 }: propsParagraphBottom) {
   return (
     <p
-      className={` ${classP} mx-auto w-[336px] text-center text-[13px] font-[400]`}
+      className={` ${classP} mx-auto min-w-[336px] text-center text-[13px] font-[400]`}
     >
       {children}
     </p>
