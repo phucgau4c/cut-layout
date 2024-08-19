@@ -4,7 +4,7 @@ type InputProps = {
   icon: string;
   placeholder: string;
   classInput?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 };
 
 export default function InputWidthdraw({
@@ -14,7 +14,7 @@ export default function InputWidthdraw({
   children,
 }: InputProps) {
   return (
-    <div className="relative mt-[30px]">
+    <div className="relative mx-auto mt-[30px] max-w-[485px]">
       {children}
       <input
         type="text"

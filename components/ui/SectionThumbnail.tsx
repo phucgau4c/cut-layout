@@ -8,7 +8,7 @@ export default function SectionThumbnail() {
     <section className={`relative`}>
       <ButtonDownload />
       <div
-        className="h-[1106px] bg-cover bg-[center_top] bg-no-repeat"
+        className="bg-cover bg-[center_top] bg-no-repeat pb-[66px]"
         style={{
           backgroundImage: "url(/assets/imgs/img_background-thumbnail.svg)",
         }}

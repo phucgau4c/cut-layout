@@ -7,8 +7,8 @@ import money from "@/public/assets/imgs/image_10,000-dollar.svg";
 
 export default function LauchDate() {
   return (
-    <div>
-      <p className="px-[35px] pt-[92px] text-center text-[40px] font-[700] text-white">
+    <div className="px-[35px]">
+      <p className="pt-[92px] text-center text-[40px] font-[700] text-white">
         Welcome to AceLounge Club!
       </p>
       <p className="mb-[28px] text-center text-[20px] font-[700] text-white md:text-[32px]">
@@ -16,7 +16,7 @@ export default function LauchDate() {
       </p>
 
       <div
-        className={`font-pathway h[399px] m-auto mb-[43px] w-[323px] border-[4px] border-[#fff]/40`}
+        className={`m-auto mb-[43px] min-w-[323px] max-w-[500px] border-[4px] border-[#fff]/40 font-pathway`}
       >
         <div className="h-[223px] bg-black/70 pb-[20px] pl-[14px] pr-[14px] pt-[20px]">
           <p className="flex border-b-[2px] border-[#ff0000] text-[24px] font-[400] text-white">

@@ -6,9 +6,9 @@ import iconSend from "@/public/assets/icons/icon_sent.svg";
 
 export default function FormJoin() {
   return (
-    <div className="h-[502px] bg-gradient-to-b from-[#000] to-[#450505] pt-[23px]">
-      <form className="mx-auto flex h-[415px] w-[331px] flex-col items-center justify-around rounded-[20px] border-[2px] bg-[#790000] bg-gradient-to-b from-[#000]/50 to-[#fff]/0 px-[20px] py-[30px] text-white">
-        <p className="text-[32px] font-[700]">Join the club</p>
+    <div className="bg-gradient-to-b from-[#000] to-[#450505] px-[31px] pb-[64px] pt-[23px]">
+      <form className="mx-auto flex min-w-[331px] max-w-[460px] flex-col items-center justify-around rounded-[20px] border-[2px] bg-[#790000] bg-gradient-to-b from-[#000]/50 to-[#fff]/0 px-[20px] py-[30px] text-white">
+        <p className="mb-[20px] text-[32px] font-[700]">Join the club</p>
         <InputForm
           iconLink="/assets/icons/icon_person.svg"
           placeHolder="FullName"
