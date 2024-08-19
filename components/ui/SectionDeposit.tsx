@@ -20,11 +20,16 @@ export function SectionDeposit() {
       </div>
       <div>
         <p className="s text-center text-[40px] font-[700]">Quick Deposit</p>
-        <SelectCoin />
-        <Button classButton="mx-auto mt-[100px] h-[73px]">
-          <Image src={iconDeposit} alt="deposit" /> Deposit
-        </Button>
-        <p className="mx-auto mt-[23px] w-[336px] text-center text-[13px] font-[400]">
+        <form action="" className="mx-auto mt-[57px] h-[56px] w-[332px]">
+          <label className="mb[16px] text-center font-pathway text-[32px] font-[400]">
+            Choose Payment Method
+          </label>
+          <SelectCoin />
+          <Button classButton="mx-auto mt-[37px] h-[73px]">
+            <Image src={iconDeposit} alt="deposit" /> Deposit
+          </Button>
+        </form>
+        <p className="mx-auto mt-[190px] w-[336px] text-center text-[13px] font-[400]">
           We will credit the exact amount we receive in US Dollars. Need
           assistance? Contact us via Live Chat for instant support.
         </p>

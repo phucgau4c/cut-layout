@@ -1,7 +1,6 @@
 type InputProps = {
   iconLink: string;
   placeHolder: string;
-  width?: number;
   classInput?: string;
 };
 

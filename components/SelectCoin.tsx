@@ -24,10 +24,7 @@ export default function Example() {
   const [selected, setSelected] = useState(people[1]);
 
   return (
-    <div className="mx-auto mt-[57px] h-[56px] w-[332px]">
-      <p className="mb-[16px] font-pathway text-[32px] font-[400]">
-        Choose Payment Method
-      </p>
+    <div className="">
       <Listbox value={selected} onChange={setSelected}>
         <div className="flex h-[56px] w-[332px] items-center justify-between rounded-r-[58px] rounded-bl-[100px] bg-gradient-to-r from-[#601414] to-[#9a0000] pr-[17px]">
           <ListboxButton className="flex pl-[35px]">

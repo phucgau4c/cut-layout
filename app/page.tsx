@@ -4,6 +4,7 @@ import { SectionDeposit } from "@/components/ui/SectionDeposit";
 import SectionFeatures from "@/components/ui/SectionFeatures";
 import SectionPlay from "@/components/ui/SectionPlay";
 import SectionThumbnail from "@/components/ui/SectionThumbnail";
+import SectionWithDraw from "@/components/ui/SectionWithDraw";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <SectionPlay />
       <SectionFeatures />
       <SectionDeposit />
+      <SectionWithDraw />
     </>
   );
 }
