@@ -6,12 +6,21 @@ import Image from "next/image";
 import SelectCoin from "../SelectCoin";
 import Button from "../Button";
 import iconDeposit from "@/public/assets/icons/icon_request-money.svg";
+import imgTelegram from "@/public/assets/imgs/image_telegram.svg";
+import wallet from "@/public/assets/imgs/wallet.svg";
 
 export function SectionDeposit() {
   return (
-    <section className="bg-gradient-to-l from-[#e70404] to-[#850202] px-[34px] pb-[60px]">
-      <div className="relative mx-auto h-[230px] w-[300px]">
-        <Image className="absolute" src={imageWallet} alt="wallet" />
+    <section className="bg-gradient-to-l from-[#e70404] to-[#850202] px-[34px] pb-[60px] lg:flex lg:justify-between lg:px-0 lg:pt-[108px]">
+      <Image
+        className="hidden lg:block"
+        src={wallet}
+        alt="wallet"
+        style={{ width: "30%", height: "auto", maxWidth: "50vh" }}
+      />
+
+      <div className="relative mx-auto h-[230px] w-[300px] lg:hidden">
+        <Image className="absolute lg:hidden" src={imageWallet} alt="wallet" />
         <Image
           className="absolute right-[-10px] top-[110px]"
           src={imageCoin}
@@ -37,6 +46,12 @@ export function SectionDeposit() {
           assistance? Contact us via Live Chat for instant support.
         </p>
       </div>
+      <Image
+        src={imgTelegram}
+        alt="telegram"
+        className="hidden lg:block"
+        style={{ width: "30%", height: "auto", maxWidth: "50vh" }}
+      />
     </section>
   );
 }
