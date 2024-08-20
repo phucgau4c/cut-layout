@@ -11,7 +11,7 @@ import Button from "../Button";
 
 export default function SectionStay() {
   return (
-    <section className="bg-gradient-to-l from-[#e70404] to-[#850202] px-[30px] pb-[88px] pt-[49px] lg:flex lg:items-center lg:justify-center lg:pt-[108px]">
+    <section className="bg-gradient-to-l from-[#e70404] to-[#850202] px-[30px] pb-[88px] pt-[49px] lg:flex lg:items-center lg:justify-center lg:py-0 lg:pt-[108px]">
       <div className="relative h-[290px] lg:hidden">
         <Image
           src={imageMail}

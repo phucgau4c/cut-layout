@@ -6,7 +6,7 @@ import IconDownload from "./IconDownload";
 
 export default function DownloadGroup() {
   return (
-    <div className="m-auto flex w-[262px] flex-wrap md:w-full md:justify-center xl:justify-between">
+    <div className="mx-auto flex w-[262px] flex-wrap md:w-[801px] md:justify-center lg:w-full lg:flex-nowrap xl:justify-between">
       <IconDownload classCss="mb-[9px]" icon={chplay} alt="chplay" />
       <IconDownload classCss="mb-[9px]" icon={appStore} alt="app strore" />
       <IconDownload classCss="mb-[9px]" icon={mStore} alt="microsoft store" />
